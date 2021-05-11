@@ -1,0 +1,121 @@
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body{
+    background-image: url('https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?size=626&ext=jpg');
+    background-size: 100% ;
+
+    background-repeat: no-repeat;
+    color: white;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    box-sizing: border-box;
+    height: 110px;
+    overflow: hidden;
+}
+
+.mid{
+    /* border: 2px solid cyan; */
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    padding: 20px 20px;
+}
+
+.right{
+    /* border: 2px solid green; */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 16px;
+}
+a:hover{
+    color:cyan;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.active{
+    color: tomato;
+    text-decoration: underline ;
+}
+.left img{
+    width:80px;
+    padding-left: 0px;
+    padding-top: 2px;
+    filter: invert(100%);
+}
+.left{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    text-align: center;
+    color: yellow;
+}
+.right img{
+    width: 40px;
+}
+.b{
+    padding: 0px 2px;
+}
+
+.l{
+    line-height: 2px;
+    font-size: large;
+    text-align: right;
+}
+.container{
+    /* border: 2px solid crimson; */
+    margin: 100px 100px 100px 10px;
+    padding: 50px 50px;
+    width: 43%;
+    border-radius: 2px;
+
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    
+}
+.btn:hover{
+    background-color: aqua;
+    color: red;
+    cursor: pointer;
+    
+}
+.formgrp input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 6px;
+    margin: 3px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.formgrp:focus{
+    outline: none;
+}
+.container h1 {
+    text-align: center;
+}
+
+.m{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
